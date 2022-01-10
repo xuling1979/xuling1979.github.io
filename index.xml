@@ -6,9 +6,24 @@
     <description>Recent content on xlblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <lastBuildDate>Mon, 10 Jan 2022 20:16:46 +0800</lastBuildDate>
     
         <atom:link href="http://xuling1979.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>hello 2022</title>
+      <link>http://xuling1979.github.io/post/first/</link>
+      <pubDate>Mon, 10 Jan 2022 20:16:46 +0800</pubDate>
+      
+      <guid>http://xuling1979.github.io/post/first/</guid>
+      
+        <description>&lt;h3 id=&#34;hello-2022&#34;&gt;Hello 2022&lt;/h3&gt;
+&lt;p&gt;␣   2022, 努力，奋斗。
+做人如果没有梦想，那和咸鱼有什么区别？&lt;/p&gt;
+</description>
+      
+    </item>
     
   </channel>
 </rss>
