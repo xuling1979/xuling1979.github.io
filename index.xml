@@ -6,7 +6,7 @@
     <description>Recent content on xlblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 14 Jan 2022 00:29:40 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Jan 2022 14:25:52 +0000</lastBuildDate>
     
         <atom:link href="http://xuling1979.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,6 +19,20 @@
       <guid>http://xuling1979.github.io/about/</guid>
       
         <description>&lt;p&gt;人类低质量男性，没啥说的。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Vscode Terminal 终端字体显示错误</title>
+      <link>http://xuling1979.github.io/post/2022-01-23-vscode-terminal-%E7%BB%88%E7%AB%AF%E5%AD%97%E4%BD%93%E6%98%BE%E7%A4%BA%E9%94%99%E8%AF%AF/</link>
+      <pubDate>Sun, 23 Jan 2022 14:25:52 +0000</pubDate>
+      
+      <guid>http://xuling1979.github.io/post/2022-01-23-vscode-terminal-%E7%BB%88%E7%AB%AF%E5%AD%97%E4%BD%93%E6%98%BE%E7%A4%BA%E9%94%99%E8%AF%AF/</guid>
+      
+        <description>&lt;p&gt;vscode 终端字体不能显示图标，老是显示一个方块，原因是字体没设置正确。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Ctrl + ，&lt;/code&gt;打开 vscode 的设置界面，输入&lt;code&gt;terminal font&lt;/code&gt;,找到设置项输入：&lt;code&gt;MesloLGM Nerd Font&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;如果没有这个字体，需要去 Github 上搜寻下载。&lt;/p&gt;
 </description>
       
     </item>
