@@ -6,7 +6,7 @@
     <description>Recent content on xlblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 23 Jan 2022 14:25:52 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Feb 2022 01:11:42 +0000</lastBuildDate>
     
         <atom:link href="http://xuling1979.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,6 +19,99 @@
       <guid>http://xuling1979.github.io/about/</guid>
       
         <description>&lt;p&gt;人类低质量男性，没啥说的。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Ruby on Rails enums 的使用 </title>
+      <link>http://xuling1979.github.io/post/ruby-on-rails-enums-%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+      <pubDate>Sun, 27 Feb 2022 01:11:42 +0000</pubDate>
+      
+      <guid>http://xuling1979.github.io/post/ruby-on-rails-enums-%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+      
+        <description>&lt;h3 id=&#34;应用场景&#34;&gt;应用场景&lt;/h3&gt;
+&lt;p&gt;有些表的字段内容不会经常变更，而且只有几项内容，没有必要新建一个表，用枚举 enum 就挺好。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Enum 就是 Rails 用来消灭魔鬼数字的工具。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;如何使用&#34;&gt;如何使用&lt;/h3&gt;
+&lt;h4 id=&#34;数据库字段准备&#34;&gt;数据库字段准备&lt;/h4&gt;
+&lt;p&gt;枚举类型是 integer，不是 string；使用 integer 来索引查找一个状态。
+举个例子：
+&lt;code&gt; rails g scaffold Post title content:text status:integer&lt;/code&gt;
+在 rails db:migrate 前，设置一个缺省值：
+&lt;code&gt;t.integer :status, default: 0&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;声明&#34;&gt;声明&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Post&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;ApplicationRecord&lt;/span&gt;
+    enum &lt;span style=&#34;color:#e6db74&#34;&gt;:status&lt;/span&gt;, &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;:published&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;:draft&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;:archived&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+    enum &lt;span style=&#34;color:#e6db74&#34;&gt;:status&lt;/span&gt;, { &lt;span style=&#34;color:#e6db74&#34;&gt;published&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;draft&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;archived&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; }
+    enum &lt;span style=&#34;color:#e6db74&#34;&gt;:status&lt;/span&gt;, { &lt;span style=&#34;color:#e6db74&#34;&gt;published&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;draft&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;archived&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; }, &lt;span style=&#34;color:#e6db74&#34;&gt;scopes&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;#有时候你不想用默认的缺省值，就可以加上这个&lt;/span&gt;
+    enum &lt;span style=&#34;color:#e6db74&#34;&gt;:status&lt;/span&gt;, { &lt;span style=&#34;color:#e6db74&#34;&gt;published&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;draft&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;archived&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;}, &lt;span style=&#34;color:#e6db74&#34;&gt;default&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;:published&lt;/span&gt;
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;注意：如果用数组，不要随意更换值的顺序，有新值加在后面；所以用 hash 更好，更容易控制且不出问题。&lt;/p&gt;
+&lt;h4 id=&#34;enums-内建的方法&#34;&gt;enums 内建的方法&lt;/h4&gt;
+&lt;p&gt;按照上面的方式声明后，会获得一系列的 helper method.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;  post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;published! &lt;span style=&#34;color:#75715e&#34;&gt;# =&amp;gt; sets post status to 0&lt;/span&gt;
+  post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;published? &lt;span style=&#34;color:#75715e&#34;&gt;# =&amp;gt; true&lt;/span&gt;
+  post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;status &lt;span style=&#34;color:#75715e&#34;&gt;# =&amp;gt; &amp;#34;published&amp;#34;&lt;/span&gt;
+
+  post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;draft! &lt;span style=&#34;color:#75715e&#34;&gt;# =&amp;gt; sets post status to 1&lt;/span&gt;
+  post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;draft? &lt;span style=&#34;color:#75715e&#34;&gt;# =&amp;gt; true&lt;/span&gt;
+  post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;status &lt;span style=&#34;color:#75715e&#34;&gt;# =&amp;gt; &amp;#34;draft&amp;#34;&lt;/span&gt;
+
+  post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;archived! &lt;span style=&#34;color:#75715e&#34;&gt;# =&amp;gt; sets post status to 2&lt;/span&gt;
+  post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;archived? &lt;span style=&#34;color:#75715e&#34;&gt;# =&amp;gt; true&lt;/span&gt;
+  post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;status &lt;span style=&#34;color:#75715e&#34;&gt;# =&amp;gt; &amp;#34;archived&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;用在-activerecord-就很-nice-了&#34;&gt;用在 ActiveRecord 就很 nice 了&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# examples of a published ActiveRecord query&lt;/span&gt;
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;Post&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;where(&lt;span style=&#34;color:#e6db74&#34;&gt;status&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;:published&lt;/span&gt;)
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;Post&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;where&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;not(&lt;span style=&#34;color:#e6db74&#34;&gt;status&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;:published&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;prefixsuffix-前缀和后缀&#34;&gt;Prefix/Suffix 前缀和后缀&lt;/h4&gt;
+&lt;p&gt;这个为了解决不同 enum 的值不能同名这个问题。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;  enum &lt;span style=&#34;color:#e6db74&#34;&gt;status&lt;/span&gt;: &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;:temporary&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;:active&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;:deleted&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+  enum &lt;span style=&#34;color:#e6db74&#34;&gt;admin_status&lt;/span&gt;: &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;:active&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;:super_admin&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;这个就会报错，加上前缀后缀就不会了。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Post&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;ApplicationRecord&lt;/span&gt;
+    enum &lt;span style=&#34;color:#e6db74&#34;&gt;:status&lt;/span&gt;, { &lt;span style=&#34;color:#e6db74&#34;&gt;published&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;draft&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;archived&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;}, &lt;span style=&#34;color:#e6db74&#34;&gt;suffix&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+  post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;published_status!
+  post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;published_status?
+
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Post&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;ApplicationRecord&lt;/span&gt;
+    enum &lt;span style=&#34;color:#e6db74&#34;&gt;:status&lt;/span&gt;, { &lt;span style=&#34;color:#e6db74&#34;&gt;published&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;draft&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;archived&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;}, &lt;span style=&#34;color:#e6db74&#34;&gt;prefix&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;:posts&lt;/span&gt;
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+  post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;posts_published!
+  post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;posts_published?
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;i18n-翻译&#34;&gt;i18n 翻译&lt;/h4&gt;
+&lt;p&gt;使用这个：&lt;a href=&#34;https://github.com/zmbacker/enum_help&#34;&gt;enum_help&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Order&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;ActiveRecord&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;Base&lt;/span&gt;
+    enum &lt;span style=&#34;color:#e6db74&#34;&gt;status&lt;/span&gt;: { &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;nopayment&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;finished&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;failed&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;destroyed&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt; }
+
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;self&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;restricted_statuses&lt;/span&gt;
+      statuses&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;except &lt;span style=&#34;color:#e6db74&#34;&gt;:failed&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;:destroyed&lt;/span&gt;
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+  order &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Order&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;first
+  order&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;update_attribute &lt;span style=&#34;color:#e6db74&#34;&gt;:status&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;
+  order&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;status
+  &lt;span style=&#34;color:#75715e&#34;&gt;# &amp;gt; nopayment&lt;/span&gt;
+  order&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;status_i18n &lt;span style=&#34;color:#75715e&#34;&gt;# if you have an i18n file defined as following, it will return &amp;#34;未支付&amp;#34;.&lt;/span&gt;
+  &lt;span style=&#34;color:#75715e&#34;&gt;# &amp;gt; 未支付&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;i18n 文件&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# config/locales/model/order.zh-cn.yml&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;zh-cn&lt;/span&gt;:
+  &lt;span style=&#34;color:#f92672&#34;&gt;enums&lt;/span&gt;:
+    &lt;span style=&#34;color:#f92672&#34;&gt;order&lt;/span&gt;:
+      &lt;span style=&#34;color:#f92672&#34;&gt;status&lt;/span&gt;:
+        &lt;span style=&#34;color:#f92672&#34;&gt;finished&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;完成&lt;/span&gt;
+        &lt;span style=&#34;color:#f92672&#34;&gt;nopayment&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;未支付&lt;/span&gt;
+        &lt;span style=&#34;color:#f92672&#34;&gt;failed&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;失败&lt;/span&gt;
+        &lt;span style=&#34;color:#f92672&#34;&gt;destroyed&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;已删除&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;参考&#34;&gt;参考&lt;/h4&gt;
+&lt;p&gt;这篇写得更好：
+&lt;a href=&#34;https://ruby-china.org/topics/28654&#34;&gt;Rails 关于在 Rails Model 中使用 Enum (枚举) 的若干总结&lt;/a&gt;&lt;/p&gt;
 </description>
       
     </item>

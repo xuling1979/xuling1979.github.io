@@ -6,7 +6,16 @@
     <description>Recent content in Categories on xlblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 23 Jan 2022 14:25:52 +0000</lastBuildDate><atom:link href="http://xuling1979.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Feb 2022 01:11:42 +0000</lastBuildDate><atom:link href="http://xuling1979.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>rails</title>
+      <link>http://xuling1979.github.io/categories/rails/</link>
+      <pubDate>Sun, 27 Feb 2022 01:11:42 +0000</pubDate>
+      
+      <guid>http://xuling1979.github.io/categories/rails/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>tool</title>
       <link>http://xuling1979.github.io/categories/tool/</link>
