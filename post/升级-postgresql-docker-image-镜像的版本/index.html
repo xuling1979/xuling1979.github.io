@@ -69,7 +69,7 @@
 <meta itemprop="name" content="升级 postgresql docker image 镜像的版本">
 <meta itemprop="description" content="问题 直接在 docker-compose.yml 中修改版本后，docker-compose up 运行不起来，会报错。 FATAL: database files are incompatible with server DETAIL: The data directory was initialized by PostgreSQL version 13, which is not compatible with this version 14.3. 解决方法 删掉 v"><meta itemprop="datePublished" content="2022-06-04T13:05:10+00:00" />
 <meta itemprop="dateModified" content="2019-08-22T15:20:28+00:00" />
-<meta itemprop="wordCount" content="132">
+<meta itemprop="wordCount" content="136">
 <meta itemprop="keywords" content="docker,postgresql,rails," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="升级 postgresql docker image 镜像的版本"/>
 <meta name="twitter:description" content="问题 直接在 docker-compose.yml 中修改版本后，docker-compose up 运行不起来，会报错。 FATAL: database files are incompatible with server DETAIL: The data directory was initialized by PostgreSQL version 13, which is not compatible with this version 14.3. 解决方法 删掉 v"/>
@@ -332,8 +332,9 @@ DETAIL: The data directory was initialized by PostgreSQL version 13, which is no
 <li>删除 volume 要先删除 container 容器，否则会报错：该 volume in use.</li>
 <li>运行命令：</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yml" data-lang="yml"><span style="display:flex;"><span>    <span style="color:#ae81ff">docker container rm image_name</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">docker volume rm image-vol```</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>    <span style="color:#ae81ff">docker container stop image_name</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">docker container rm image_name</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">docker volume rm image-vol</span>
 </span></span></code></pre></div></li>
 <li>然后重新运行 <code>docker-compose up；rails db:migrate db:seed</code></li>
 </ul>
