@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 徐林的博客</title>
+    <link>https://1person.work/tags/</link>
+    <description>Recent content in Tags on 徐林的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 04 Jun 2022 13:05:10 +0000</lastBuildDate><atom:link href="https://1person.work/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>docker</title>
+      <link>https://1person.work/tags/docker/</link>
+      <pubDate>Sat, 04 Jun 2022 13:05:10 +0000</pubDate>
+      
+      <guid>https://1person.work/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>postgresql</title>
+      <link>https://1person.work/tags/postgresql/</link>
+      <pubDate>Sat, 04 Jun 2022 13:05:10 +0000</pubDate>
+      
+      <guid>https://1person.work/tags/postgresql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rails</title>
+      <link>https://1person.work/tags/rails/</link>
+      <pubDate>Sat, 04 Jun 2022 13:05:10 +0000</pubDate>
+      
+      <guid>https://1person.work/tags/rails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tool</title>
+      <link>https://1person.work/tags/tool/</link>
+      <pubDate>Sun, 23 Jan 2022 14:25:52 +0000</pubDate>
+      
+      <guid>https://1person.work/tags/tool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>日子</title>
+      <link>https://1person.work/tags/%E6%97%A5%E5%AD%90/</link>
+      <pubDate>Fri, 14 Jan 2022 00:29:40 +0000</pubDate>
+      
+      <guid>https://1person.work/tags/%E6%97%A5%E5%AD%90/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>footnote</title>
+      <link>https://1person.work/tags/footnote/</link>
+      <pubDate>Thu, 01 Mar 2018 16:01:23 +0800</pubDate>
+      
+      <guid>https://1person.work/tags/footnote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://1person.work/tags/markdown/</link>
+      <pubDate>Thu, 01 Mar 2018 16:01:23 +0800</pubDate>
+      
+      <guid>https://1person.work/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tag-11</title>
+      <link>https://1person.work/tags/tag-11/</link>
+      <pubDate>Thu, 01 Mar 2018 16:01:23 +0800</pubDate>
+      
+      <guid>https://1person.work/tags/tag-11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>English</title>
+      <link>https://1person.work/tags/english/</link>
+      <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
+      
+      <guid>https://1person.work/tags/english/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>preview</title>
+      <link>https://1person.work/tags/preview/</link>
+      <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
+      
+      <guid>https://1person.work/tags/preview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tag-2</title>
+      <link>https://1person.work/tags/tag-2/</link>
+      <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
+      
+      <guid>https://1person.work/tags/tag-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>https://1person.work/tags/tutorial/</link>
+      <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://1person.work/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blogdown</title>
+      <link>https://1person.work/tags/blogdown/</link>
+      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://1person.work/tags/blogdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MathJax</title>
+      <link>https://1person.work/tags/mathjax/</link>
+      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://1person.work/tags/mathjax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pandoc</title>
+      <link>https://1person.work/tags/pandoc/</link>
+      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://1person.work/tags/pandoc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RStudio</title>
+      <link>https://1person.work/tags/rstudio/</link>
+      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://1person.work/tags/rstudio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>development</title>
+      <link>https://1person.work/tags/development/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://1person.work/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>https://1person.work/tags/go/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://1person.work/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://1person.work/tags/golang/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://1person.work/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>templates</title>
+      <link>https://1person.work/tags/templates/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://1person.work/tags/templates/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

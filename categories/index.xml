@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 徐林的博客</title>
+    <link>https://1person.work/categories/</link>
+    <description>Recent content in Categories on 徐林的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 04 Jun 2022 13:05:10 +0000</lastBuildDate><atom:link href="https://1person.work/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>docker</title>
+      <link>https://1person.work/categories/docker/</link>
+      <pubDate>Sat, 04 Jun 2022 13:05:10 +0000</pubDate>
+      
+      <guid>https://1person.work/categories/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>postgresql</title>
+      <link>https://1person.work/categories/postgresql/</link>
+      <pubDate>Sat, 04 Jun 2022 13:05:10 +0000</pubDate>
+      
+      <guid>https://1person.work/categories/postgresql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rails</title>
+      <link>https://1person.work/categories/rails/</link>
+      <pubDate>Sat, 04 Jun 2022 13:05:10 +0000</pubDate>
+      
+      <guid>https://1person.work/categories/rails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tool</title>
+      <link>https://1person.work/categories/tool/</link>
+      <pubDate>Sun, 23 Jan 2022 14:25:52 +0000</pubDate>
+      
+      <guid>https://1person.work/categories/tool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>日子</title>
+      <link>https://1person.work/categories/%E6%97%A5%E5%AD%90/</link>
+      <pubDate>Fri, 14 Jan 2022 00:29:40 +0000</pubDate>
+      
+      <guid>https://1person.work/categories/%E6%97%A5%E5%AD%90/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docs</title>
+      <link>https://1person.work/categories/docs/</link>
+      <pubDate>Thu, 01 Mar 2018 16:01:23 +0800</pubDate>
+      
+      <guid>https://1person.work/categories/docs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>index</title>
+      <link>https://1person.work/categories/index/</link>
+      <pubDate>Thu, 01 Mar 2018 16:01:23 +0800</pubDate>
+      
+      <guid>https://1person.work/categories/index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>English</title>
+      <link>https://1person.work/categories/english/</link>
+      <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
+      
+      <guid>https://1person.work/categories/english/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Example</title>
+      <link>https://1person.work/categories/example/</link>
+      <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://1person.work/categories/example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://1person.work/categories/hugo/</link>
+      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://1person.work/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>https://1person.work/categories/development/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://1person.work/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://1person.work/categories/golang/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://1person.work/categories/golang/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
