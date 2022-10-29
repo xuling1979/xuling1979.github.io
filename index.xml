@@ -23,6 +23,17 @@
     </item>
     
     <item>
+      <title>2022 10 28 Diary</title>
+      <link>https://1person.work/post/2022-10-28-diary/</link>
+      <pubDate>Fri, 28 Oct 2022 08:42:04 +0800</pubDate>
+      
+      <guid>https://1person.work/post/2022-10-28-diary/</guid>
+      
+        <description>今日收获 至少在起床后 90 之内不要喝带有咖啡因的饮料或食物 上午不要看社交媒体、邮件。 把早上的时间拿来读深度的东西，而不是去读碎片的社交资讯或者博</description>
+      
+    </item>
+    
+    <item>
       <title>升级 postgresql docker image 镜像的版本</title>
       <link>https://1person.work/post/%E5%8D%87%E7%BA%A7-postgresql-docker-image-%E9%95%9C%E5%83%8F%E7%9A%84%E7%89%88%E6%9C%AC/</link>
       <pubDate>Sat, 04 Jun 2022 13:05:10 +0000</pubDate>

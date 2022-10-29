@@ -51,6 +51,27 @@
   </url>
   
   <url>
+    <loc>https://1person.work/post/2022-10-28-diary/</loc>
+    <lastmod>2022-10-28T08:42:04+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://1person.work/tags/%E6%97%A5%E5%AD%90/</loc>
+    <lastmod>2022-10-28T08:42:04+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://1person.work/categories/%E6%97%A5%E5%AD%90/</loc>
+    <lastmod>2022-10-28T08:42:04+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://1person.work/tags/docker/</loc>
     <lastmod>2019-08-22T15:20:28+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -136,20 +157,6 @@
   
   <url>
     <loc>https://1person.work/post/%E6%84%9F%E5%86%92%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2019-08-22T15:20:28+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://1person.work/tags/%E6%97%A5%E5%AD%90/</loc>
-    <lastmod>2019-08-22T15:20:28+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://1person.work/categories/%E6%97%A5%E5%AD%90/</loc>
     <lastmod>2019-08-22T15:20:28+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
