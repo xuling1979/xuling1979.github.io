@@ -6,7 +6,16 @@
     <description>Recent content in docker on 徐林的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 04 Jun 2022 13:05:10 +0000</lastBuildDate><atom:link href="https://1person.work/categories/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Oct 2022 23:49:28 +0800</lastBuildDate><atom:link href="https://1person.work/categories/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Traefik学习(1)</title>
+      <link>https://1person.work/post/traefik%E5%AD%A6%E4%B9%A0-1/</link>
+      <pubDate>Sun, 30 Oct 2022 23:49:28 +0800</pubDate>
+      
+      <guid>https://1person.work/post/traefik%E5%AD%A6%E4%B9%A0-1/</guid>
+      <description>优点 服务自动发现，对docker kubernetes支持良好。新增docker节点不需要更改配置文件。 与 docker 的完美集成，基于 container label 的配置 支持自动</description>
+    </item>
+    
     <item>
       <title>升级 postgresql docker image 镜像的版本</title>
       <link>https://1person.work/post/%E5%8D%87%E7%BA%A7-postgresql-docker-image-%E9%95%9C%E5%83%8F%E7%9A%84%E7%89%88%E6%9C%AC/</link>
