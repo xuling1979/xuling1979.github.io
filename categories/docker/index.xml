@@ -6,7 +6,16 @@
     <description>Recent content in docker on 徐林的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 30 Oct 2022 23:49:28 +0800</lastBuildDate><atom:link href="https://1person.work/categories/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Nov 2022 22:32:44 +0800</lastBuildDate><atom:link href="https://1person.work/categories/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Portainer 安装后不能登陆的处理</title>
+      <link>https://1person.work/post/portainer-error/</link>
+      <pubDate>Tue, 08 Nov 2022 22:32:44 +0800</pubDate>
+      
+      <guid>https://1person.work/post/portainer-error/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Traefik学习(1)</title>
       <link>https://1person.work/post/traefik%E5%AD%A6%E4%B9%A0-1/</link>
