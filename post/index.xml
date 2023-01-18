@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 徐林的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 08 Nov 2022 22:32:44 +0800</lastBuildDate><atom:link href="https://1person.work/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Jan 2023 15:18:39 +0000</lastBuildDate><atom:link href="https://1person.work/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ruby属性attr_accessor是如何实现的</title>
+      <link>https://1person.work/post/2023-01-18-ruby%E5%B1%9E%E6%80%A7attr_accessor-%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%9A%84/</link>
+      <pubDate>Wed, 18 Jan 2023 15:18:39 +0000</pubDate>
+      
+      <guid>https://1person.work/post/2023-01-18-ruby%E5%B1%9E%E6%80%A7attr_accessor-%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%9A%84/</guid>
+      <description>最初看到attr_accessor 觉得很神奇。其实实现并没有很复杂，一言概之就是用了 define_method方法来定义一个方法。元编程的一</description>
+    </item>
+    
     <item>
       <title>Portainer 安装后不能登陆的处理</title>
       <link>https://1person.work/post/portainer-error/</link>
