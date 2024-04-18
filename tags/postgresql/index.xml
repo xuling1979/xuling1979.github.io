@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>postgresql on 徐林的博客</title>
+    <title>Postgresql on 徐林的博客</title>
     <link>https://1person.work/tags/postgresql/</link>
-    <description>Recent content in postgresql on 徐林的博客</description>
+    <description>Recent content in Postgresql on 徐林的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 04 Jun 2022 13:05:10 +0000</lastBuildDate><atom:link href="https://1person.work/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Aug 2019 15:20:28 +0000</lastBuildDate>
+    <atom:link href="https://1person.work/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>升级 postgresql docker image 镜像的版本</title>
       <link>https://1person.work/post/%E5%8D%87%E7%BA%A7-postgresql-docker-image-%E9%95%9C%E5%83%8F%E7%9A%84%E7%89%88%E6%9C%AC/</link>
       <pubDate>Sat, 04 Jun 2022 13:05:10 +0000</pubDate>
-      
       <guid>https://1person.work/post/%E5%8D%87%E7%BA%A7-postgresql-docker-image-%E9%95%9C%E5%83%8F%E7%9A%84%E7%89%88%E6%9C%AC/</guid>
       <description>问题 直接在 docker-compose.yml 中修改版本后，docker-compose up 运行不起来，会报错。 FATAL: database files are incompatible with server DETAIL: The data directory was initialized by PostgreSQL version 13, which is not compatible with this version 14.3. 解决方法 删掉 v</description>
     </item>
-    
   </channel>
 </rss>

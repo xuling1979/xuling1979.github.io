@@ -6,7 +6,7 @@
     <description>Recent content in Home on 徐林的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 18 Jan 2023 15:18:39 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Apr 2024 13:16:38 +0800</lastBuildDate>
     
         <atom:link href="https://1person.work/index.xml" rel="self" type="application/rss+xml" />
     
@@ -40,7 +40,7 @@
       
       <guid>https://1person.work/post/portainer-error/</guid>
       
-        <description></description>
+        <description>Portainer是Docker的Web图形化管理工具，提供状态显示面板、应用模板快速部署、容器、镜像、网络、数据卷的基本操作（包括上传下载</description>
       
     </item>
     
