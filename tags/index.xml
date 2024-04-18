@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 徐林的博客</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://1person.work/tags/</link>
     <description>Recent content in Tags on 徐林的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 18 Apr 2024 13:16:38 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://1person.work/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>日子</title>
-      <link>http://localhost:1313/tags/%E6%97%A5%E5%AD%90/</link>
+      <link>https://1person.work/tags/%E6%97%A5%E5%AD%90/</link>
       <pubDate>Thu, 18 Apr 2024 13:16:38 +0800</pubDate>
-      <guid>http://localhost:1313/tags/%E6%97%A5%E5%AD%90/</guid>
+      <guid>https://1person.work/tags/%E6%97%A5%E5%AD%90/</guid>
       <description></description>
     </item>
     <item>
       <title>Ruby</title>
-      <link>http://localhost:1313/tags/ruby/</link>
+      <link>https://1person.work/tags/ruby/</link>
       <pubDate>Wed, 18 Jan 2023 15:18:39 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ruby/</guid>
+      <guid>https://1person.work/tags/ruby/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker</title>
-      <link>http://localhost:1313/tags/docker/</link>
+      <link>https://1person.work/tags/docker/</link>
       <pubDate>Tue, 08 Nov 2022 22:32:44 +0800</pubDate>
-      <guid>http://localhost:1313/tags/docker/</guid>
+      <guid>https://1person.work/tags/docker/</guid>
       <description></description>
     </item>
     <item>
       <title>Traefik</title>
-      <link>http://localhost:1313/tags/traefik/</link>
+      <link>https://1person.work/tags/traefik/</link>
       <pubDate>Sun, 30 Oct 2022 23:49:28 +0800</pubDate>
-      <guid>http://localhost:1313/tags/traefik/</guid>
+      <guid>https://1person.work/tags/traefik/</guid>
       <description></description>
     </item>
     <item>
       <title>Think</title>
-      <link>http://localhost:1313/tags/think/</link>
+      <link>https://1person.work/tags/think/</link>
       <pubDate>Sat, 29 Oct 2022 01:19:41 +0800</pubDate>
-      <guid>http://localhost:1313/tags/think/</guid>
+      <guid>https://1person.work/tags/think/</guid>
       <description></description>
     </item>
     <item>
       <title>Postgresql</title>
-      <link>http://localhost:1313/tags/postgresql/</link>
+      <link>https://1person.work/tags/postgresql/</link>
       <pubDate>Sat, 04 Jun 2022 13:05:10 +0000</pubDate>
-      <guid>http://localhost:1313/tags/postgresql/</guid>
+      <guid>https://1person.work/tags/postgresql/</guid>
       <description></description>
     </item>
     <item>
       <title>Rails</title>
-      <link>http://localhost:1313/tags/rails/</link>
+      <link>https://1person.work/tags/rails/</link>
       <pubDate>Sat, 04 Jun 2022 13:05:10 +0000</pubDate>
-      <guid>http://localhost:1313/tags/rails/</guid>
+      <guid>https://1person.work/tags/rails/</guid>
       <description></description>
     </item>
     <item>
       <title>Tool</title>
-      <link>http://localhost:1313/tags/tool/</link>
+      <link>https://1person.work/tags/tool/</link>
       <pubDate>Sun, 23 Jan 2022 14:25:52 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tool/</guid>
+      <guid>https://1person.work/tags/tool/</guid>
       <description></description>
     </item>
   </channel>

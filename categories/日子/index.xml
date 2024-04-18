@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>日子 on 徐林的博客</title>
-    <link>http://localhost:1313/categories/%E6%97%A5%E5%AD%90/</link>
+    <link>https://1person.work/categories/%E6%97%A5%E5%AD%90/</link>
     <description>Recent content in 日子 on 徐林的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 18 Apr 2024 13:16:38 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/%E6%97%A5%E5%AD%90/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://1person.work/categories/%E6%97%A5%E5%AD%90/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2024 init</title>
-      <link>http://localhost:1313/post/2024/</link>
+      <link>https://1person.work/post/2024/</link>
       <pubDate>Thu, 18 Apr 2024 13:16:38 +0800</pubDate>
-      <guid>http://localhost:1313/post/2024/</guid>
+      <guid>https://1person.work/post/2024/</guid>
       <description>无输出不学习。 单纯的看书、做笔记学习效率太低，是一种自我麻痹，看似学习用功刻苦，实则没什么效果，是一种自我逃避。 写作，解题，code这些困难</description>
     </item>
     <item>
       <title>2022 10 28 Diary</title>
-      <link>http://localhost:1313/post/2022-10-28-diary/</link>
+      <link>https://1person.work/post/2022-10-28-diary/</link>
       <pubDate>Fri, 28 Oct 2022 08:42:04 +0800</pubDate>
-      <guid>http://localhost:1313/post/2022-10-28-diary/</guid>
+      <guid>https://1person.work/post/2022-10-28-diary/</guid>
       <description>今日收获 至少在起床后 90 之内不要喝带有咖啡因的饮料或食物 上午不要看社交媒体、邮件。 把早上的时间拿来读深度的东西，而不是去读碎片的社交资讯或者博</description>
     </item>
     <item>
       <title>感冒随笔</title>
-      <link>http://localhost:1313/post/%E6%84%9F%E5%86%92%E9%9A%8F%E7%AC%94/</link>
+      <link>https://1person.work/post/%E6%84%9F%E5%86%92%E9%9A%8F%E7%AC%94/</link>
       <pubDate>Fri, 14 Jan 2022 00:29:40 +0000</pubDate>
-      <guid>http://localhost:1313/post/%E6%84%9F%E5%86%92%E9%9A%8F%E7%AC%94/</guid>
+      <guid>https://1person.work/post/%E6%84%9F%E5%86%92%E9%9A%8F%E7%AC%94/</guid>
       <description>从逻辑上分析，不应该来医院。但为了不传染给家人，特别是我父亲，年龄偏大，所以还是来医院自我隔离，哪怕是感冒。 我发现我对病痛的容忍度不高。嗓子</description>
     </item>
   </channel>
