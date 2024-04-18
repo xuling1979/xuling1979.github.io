@@ -2,87 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 徐林的博客</title>
-    <link>https://1person.work/post/</link>
+    <link>http://localhost:1313/post/</link>
     <description>Recent content in Posts on 徐林的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 18 Jan 2023 15:18:39 +0000</lastBuildDate>
-    <atom:link href="https://1person.work/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Apr 2024 13:16:38 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024 init</title>
+      <link>http://localhost:1313/post/2024/</link>
+      <pubDate>Thu, 18 Apr 2024 13:16:38 +0800</pubDate>
+      <guid>http://localhost:1313/post/2024/</guid>
+      <description>无输出不学习。 单纯的看书、做笔记学习效率太低，是一种自我麻痹，看似学习用功刻苦，实则没什么效果，是一种自我逃避。 写作，解题，code这些困难</description>
+    </item>
     <item>
       <title>Ruby属性attr_accessor是如何实现的</title>
-      <link>https://1person.work/post/2023-01-18-ruby%E5%B1%9E%E6%80%A7attr_accessor-%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%9A%84/</link>
+      <link>http://localhost:1313/post/2023-01-18-ruby%E5%B1%9E%E6%80%A7attr_accessor-%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%9A%84/</link>
       <pubDate>Wed, 18 Jan 2023 15:18:39 +0000</pubDate>
-      <guid>https://1person.work/post/2023-01-18-ruby%E5%B1%9E%E6%80%A7attr_accessor-%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%9A%84/</guid>
+      <guid>http://localhost:1313/post/2023-01-18-ruby%E5%B1%9E%E6%80%A7attr_accessor-%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%9A%84/</guid>
       <description>最初看到attr_accessor 觉得很神奇。其实实现并没有很复杂，一言概之就是用了 define_method方法来定义一个方法。元编程的一</description>
     </item>
     <item>
       <title>Portainer 安装后不能登陆的处理</title>
-      <link>https://1person.work/post/portainer-error/</link>
+      <link>http://localhost:1313/post/portainer-error/</link>
       <pubDate>Tue, 08 Nov 2022 22:32:44 +0800</pubDate>
-      <guid>https://1person.work/post/portainer-error/</guid>
+      <guid>http://localhost:1313/post/portainer-error/</guid>
       <description>Portainer是Docker的Web图形化管理工具，提供状态显示面板、应用模板快速部署、容器、镜像、网络、数据卷的基本操作（包括上传下载</description>
     </item>
     <item>
       <title>Traefik学习(1)</title>
-      <link>https://1person.work/post/traefik%E5%AD%A6%E4%B9%A0-1/</link>
+      <link>http://localhost:1313/post/traefik%E5%AD%A6%E4%B9%A0-1/</link>
       <pubDate>Sun, 30 Oct 2022 23:49:28 +0800</pubDate>
-      <guid>https://1person.work/post/traefik%E5%AD%A6%E4%B9%A0-1/</guid>
+      <guid>http://localhost:1313/post/traefik%E5%AD%A6%E4%B9%A0-1/</guid>
       <description>优点 服务自动发现，对docker kubernetes支持良好。新增docker节点不需要更改配置文件。 与 docker 的完美集成，基于 container label 的配置 支持自动</description>
     </item>
     <item>
       <title>人生的意义</title>
-      <link>https://1person.work/post/%E4%BA%BA%E7%94%9F%E7%9A%84%E6%84%8F%E4%B9%89/</link>
+      <link>http://localhost:1313/post/%E4%BA%BA%E7%94%9F%E7%9A%84%E6%84%8F%E4%B9%89/</link>
       <pubDate>Sat, 29 Oct 2022 01:19:41 +0800</pubDate>
-      <guid>https://1person.work/post/%E4%BA%BA%E7%94%9F%E7%9A%84%E6%84%8F%E4%B9%89/</guid>
+      <guid>http://localhost:1313/post/%E4%BA%BA%E7%94%9F%E7%9A%84%E6%84%8F%E4%B9%89/</guid>
       <description>读阮一峰的周报，谈到他看到的一段话，给了他很大的启发。内容是季承给他爹季羡林的书写的序。 季承 《也谈人生》 人生有没有意义？人类又有什么意义？ 我</description>
     </item>
     <item>
       <title>2022 10 28 Diary</title>
-      <link>https://1person.work/post/2022-10-28-diary/</link>
+      <link>http://localhost:1313/post/2022-10-28-diary/</link>
       <pubDate>Fri, 28 Oct 2022 08:42:04 +0800</pubDate>
-      <guid>https://1person.work/post/2022-10-28-diary/</guid>
+      <guid>http://localhost:1313/post/2022-10-28-diary/</guid>
       <description>今日收获 至少在起床后 90 之内不要喝带有咖啡因的饮料或食物 上午不要看社交媒体、邮件。 把早上的时间拿来读深度的东西，而不是去读碎片的社交资讯或者博</description>
     </item>
     <item>
       <title>升级 postgresql docker image 镜像的版本</title>
-      <link>https://1person.work/post/%E5%8D%87%E7%BA%A7-postgresql-docker-image-%E9%95%9C%E5%83%8F%E7%9A%84%E7%89%88%E6%9C%AC/</link>
+      <link>http://localhost:1313/post/%E5%8D%87%E7%BA%A7-postgresql-docker-image-%E9%95%9C%E5%83%8F%E7%9A%84%E7%89%88%E6%9C%AC/</link>
       <pubDate>Sat, 04 Jun 2022 13:05:10 +0000</pubDate>
-      <guid>https://1person.work/post/%E5%8D%87%E7%BA%A7-postgresql-docker-image-%E9%95%9C%E5%83%8F%E7%9A%84%E7%89%88%E6%9C%AC/</guid>
+      <guid>http://localhost:1313/post/%E5%8D%87%E7%BA%A7-postgresql-docker-image-%E9%95%9C%E5%83%8F%E7%9A%84%E7%89%88%E6%9C%AC/</guid>
       <description>问题 直接在 docker-compose.yml 中修改版本后，docker-compose up 运行不起来，会报错。 FATAL: database files are incompatible with server DETAIL: The data directory was initialized by PostgreSQL version 13, which is not compatible with this version 14.3. 解决方法 删掉 v</description>
     </item>
     <item>
       <title>Scope 用法</title>
-      <link>https://1person.work/post/scope%E5%8E%9F%E6%9D%A5%E8%BF%99%E6%A0%B7%E7%94%A8/</link>
+      <link>http://localhost:1313/post/scope%E5%8E%9F%E6%9D%A5%E8%BF%99%E6%A0%B7%E7%94%A8/</link>
       <pubDate>Sun, 27 Feb 2022 12:56:33 +0000</pubDate>
-      <guid>https://1person.work/post/scope%E5%8E%9F%E6%9D%A5%E8%BF%99%E6%A0%B7%E7%94%A8/</guid>
+      <guid>http://localhost:1313/post/scope%E5%8E%9F%E6%9D%A5%E8%BF%99%E6%A0%B7%E7%94%A8/</guid>
       <description>Proc.new 约等于 lambda 控制权順序不同：lambda 會將控制权丟回呼叫 method 本身，继续往下执行，而 Proc 的 return 则不会，是立即跳出。 检查参数： lambda 会对参数进行检查，如果</description>
     </item>
     <item>
       <title>Ruby on Rails enums 的使用 </title>
-      <link>https://1person.work/post/ruby-on-rails-enums-%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+      <link>http://localhost:1313/post/ruby-on-rails-enums-%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
       <pubDate>Sun, 27 Feb 2022 01:11:42 +0000</pubDate>
-      <guid>https://1person.work/post/ruby-on-rails-enums-%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+      <guid>http://localhost:1313/post/ruby-on-rails-enums-%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
       <description>应用场景 有些表的字段内容不会经常变更，而且只有几项内容，没有必要新建一个表，用枚举 enum 就挺好。 Enum 就是 Rails 用来消灭魔鬼数字的工具。 如何使用 数据库字</description>
     </item>
     <item>
       <title>Vscode Terminal 终端字体显示错误</title>
-      <link>https://1person.work/post/2022-01-23-vscode-terminal-%E7%BB%88%E7%AB%AF%E5%AD%97%E4%BD%93%E6%98%BE%E7%A4%BA%E9%94%99%E8%AF%AF/</link>
+      <link>http://localhost:1313/post/2022-01-23-vscode-terminal-%E7%BB%88%E7%AB%AF%E5%AD%97%E4%BD%93%E6%98%BE%E7%A4%BA%E9%94%99%E8%AF%AF/</link>
       <pubDate>Sun, 23 Jan 2022 14:25:52 +0000</pubDate>
-      <guid>https://1person.work/post/2022-01-23-vscode-terminal-%E7%BB%88%E7%AB%AF%E5%AD%97%E4%BD%93%E6%98%BE%E7%A4%BA%E9%94%99%E8%AF%AF/</guid>
+      <guid>http://localhost:1313/post/2022-01-23-vscode-terminal-%E7%BB%88%E7%AB%AF%E5%AD%97%E4%BD%93%E6%98%BE%E7%A4%BA%E9%94%99%E8%AF%AF/</guid>
       <description>vscode 终端字体不能显示图标，老是显示一个方块，原因是字体没设置正确。 Ctrl + ，打开 vscode 的设置界面，输入terminal font,找到设置项输入：Mes</description>
     </item>
     <item>
       <title>感冒随笔</title>
-      <link>https://1person.work/post/%E6%84%9F%E5%86%92%E9%9A%8F%E7%AC%94/</link>
+      <link>http://localhost:1313/post/%E6%84%9F%E5%86%92%E9%9A%8F%E7%AC%94/</link>
       <pubDate>Fri, 14 Jan 2022 00:29:40 +0000</pubDate>
-      <guid>https://1person.work/post/%E6%84%9F%E5%86%92%E9%9A%8F%E7%AC%94/</guid>
+      <guid>http://localhost:1313/post/%E6%84%9F%E5%86%92%E9%9A%8F%E7%AC%94/</guid>
       <description>从逻辑上分析，不应该来医院。但为了不传染给家人，特别是我父亲，年龄偏大，所以还是来医院自我隔离，哪怕是感冒。 我发现我对病痛的容忍度不高。嗓子</description>
     </item>
     <item>
       <title>hello 2022</title>
-      <link>https://1person.work/post/first/</link>
+      <link>http://localhost:1313/post/first/</link>
       <pubDate>Mon, 10 Jan 2022 20:16:46 +0800</pubDate>
-      <guid>https://1person.work/post/first/</guid>
+      <guid>http://localhost:1313/post/first/</guid>
       <description>Hello 2022 2022, 努力，奋斗。 做人如果没有梦想，那和咸鱼有什么区别？</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ruby on 徐林的博客</title>
-    <link>https://1person.work/tags/ruby/</link>
+    <link>http://localhost:1313/tags/ruby/</link>
     <description>Recent content in Ruby on 徐林的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 18 Jan 2023 15:18:39 +0000</lastBuildDate>
-    <atom:link href="https://1person.work/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ruby属性attr_accessor是如何实现的</title>
-      <link>https://1person.work/post/2023-01-18-ruby%E5%B1%9E%E6%80%A7attr_accessor-%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%9A%84/</link>
+      <link>http://localhost:1313/post/2023-01-18-ruby%E5%B1%9E%E6%80%A7attr_accessor-%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%9A%84/</link>
       <pubDate>Wed, 18 Jan 2023 15:18:39 +0000</pubDate>
-      <guid>https://1person.work/post/2023-01-18-ruby%E5%B1%9E%E6%80%A7attr_accessor-%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%9A%84/</guid>
+      <guid>http://localhost:1313/post/2023-01-18-ruby%E5%B1%9E%E6%80%A7attr_accessor-%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%9A%84/</guid>
       <description>最初看到attr_accessor 觉得很神奇。其实实现并没有很复杂，一言概之就是用了 define_method方法来定义一个方法。元编程的一</description>
     </item>
   </channel>

@@ -1,225 +1,232 @@
-<?xml-stylesheet type="text/xsl" href="https://1person.work/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="http://localhost:1313/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://1person.work/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2017-08-28T21:41:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1person.work/</loc>
+    <loc>http://localhost:1313/post/2024/</loc>
     <lastmod>2024-04-18T13:16:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1person.work/post/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2024-04-18T13:16:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1person.work/categories/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-04-18T13:16:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2024-04-18T13:16:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-04-18T13:16:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/%E6%97%A5%E5%AD%90/</loc>
+    <lastmod>2024-04-18T13:16:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/%E6%97%A5%E5%AD%90/</loc>
+    <lastmod>2024-04-18T13:16:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/ruby/</loc>
     <lastmod>2023-01-18T15:18:39+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1person.work/tags/ruby/</loc>
+    <loc>http://localhost:1313/categories/ruby/</loc>
     <lastmod>2023-01-18T15:18:39+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1person.work/categories/ruby/</loc>
+    <loc>http://localhost:1313/post/2023-01-18-ruby%E5%B1%9E%E6%80%A7attr_accessor-%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%9A%84/</loc>
     <lastmod>2023-01-18T15:18:39+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1person.work/post/2023-01-18-ruby%E5%B1%9E%E6%80%A7attr_accessor-%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%9A%84/</loc>
-    <lastmod>2023-01-18T15:18:39+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://1person.work/tags/</loc>
-    <lastmod>2023-01-18T15:18:39+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://1person.work/tags/docker/</loc>
+    <loc>http://localhost:1313/tags/docker/</loc>
     <lastmod>2022-11-08T22:32:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1person.work/categories/docker/</loc>
+    <loc>http://localhost:1313/categories/docker/</loc>
     <lastmod>2022-11-08T22:32:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1person.work/post/portainer-error/</loc>
+    <loc>http://localhost:1313/post/portainer-error/</loc>
     <lastmod>2022-11-08T22:32:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1person.work/tags/traefik/</loc>
+    <loc>http://localhost:1313/tags/traefik/</loc>
     <lastmod>2022-10-30T23:49:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1person.work/categories/traefik/</loc>
+    <loc>http://localhost:1313/categories/traefik/</loc>
     <lastmod>2022-10-30T23:49:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1person.work/post/traefik%E5%AD%A6%E4%B9%A0-1/</loc>
+    <loc>http://localhost:1313/post/traefik%E5%AD%A6%E4%B9%A0-1/</loc>
     <lastmod>2022-10-30T23:49:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1person.work/tags/think/</loc>
+    <loc>http://localhost:1313/tags/think/</loc>
     <lastmod>2022-10-29T01:19:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1person.work/categories/think/</loc>
+    <loc>http://localhost:1313/categories/think/</loc>
     <lastmod>2022-10-29T01:19:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1person.work/post/%E4%BA%BA%E7%94%9F%E7%9A%84%E6%84%8F%E4%B9%89/</loc>
+    <loc>http://localhost:1313/post/%E4%BA%BA%E7%94%9F%E7%9A%84%E6%84%8F%E4%B9%89/</loc>
     <lastmod>2022-10-29T01:19:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1person.work/post/2022-10-28-diary/</loc>
+    <loc>http://localhost:1313/post/2022-10-28-diary/</loc>
     <lastmod>2022-10-28T08:42:04+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1person.work/tags/%E6%97%A5%E5%AD%90/</loc>
-    <lastmod>2022-10-28T08:42:04+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://1person.work/categories/%E6%97%A5%E5%AD%90/</loc>
-    <lastmod>2022-10-28T08:42:04+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://1person.work/tags/postgresql/</loc>
+    <loc>http://localhost:1313/tags/postgresql/</loc>
     <lastmod>2019-08-22T15:20:28+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1person.work/categories/postgresql/</loc>
+    <loc>http://localhost:1313/categories/postgresql/</loc>
     <lastmod>2019-08-22T15:20:28+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1person.work/tags/rails/</loc>
+    <loc>http://localhost:1313/tags/rails/</loc>
     <lastmod>2022-02-27T12:56:33+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1person.work/categories/rails/</loc>
+    <loc>http://localhost:1313/categories/rails/</loc>
     <lastmod>2022-02-27T12:56:33+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1person.work/post/%E5%8D%87%E7%BA%A7-postgresql-docker-image-%E9%95%9C%E5%83%8F%E7%9A%84%E7%89%88%E6%9C%AC/</loc>
+    <loc>http://localhost:1313/post/%E5%8D%87%E7%BA%A7-postgresql-docker-image-%E9%95%9C%E5%83%8F%E7%9A%84%E7%89%88%E6%9C%AC/</loc>
     <lastmod>2019-08-22T15:20:28+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1person.work/post/scope%E5%8E%9F%E6%9D%A5%E8%BF%99%E6%A0%B7%E7%94%A8/</loc>
+    <loc>http://localhost:1313/post/scope%E5%8E%9F%E6%9D%A5%E8%BF%99%E6%A0%B7%E7%94%A8/</loc>
     <lastmod>2022-02-27T12:56:33+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1person.work/post/ruby-on-rails-enums-%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
+    <loc>http://localhost:1313/post/ruby-on-rails-enums-%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
     <lastmod>2019-08-22T15:20:28+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1person.work/tags/tool/</loc>
+    <loc>http://localhost:1313/tags/tool/</loc>
     <lastmod>2022-01-23T14:25:52+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1person.work/categories/tool/</loc>
+    <loc>http://localhost:1313/categories/tool/</loc>
     <lastmod>2022-01-23T14:25:52+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1person.work/post/2022-01-23-vscode-terminal-%E7%BB%88%E7%AB%AF%E5%AD%97%E4%BD%93%E6%98%BE%E7%A4%BA%E9%94%99%E8%AF%AF/</loc>
+    <loc>http://localhost:1313/post/2022-01-23-vscode-terminal-%E7%BB%88%E7%AB%AF%E5%AD%97%E4%BD%93%E6%98%BE%E7%A4%BA%E9%94%99%E8%AF%AF/</loc>
     <lastmod>2022-01-23T14:25:52+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1person.work/post/%E6%84%9F%E5%86%92%E9%9A%8F%E7%AC%94/</loc>
+    <loc>http://localhost:1313/post/%E6%84%9F%E5%86%92%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2019-08-22T15:20:28+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1person.work/post/first/</loc>
+    <loc>http://localhost:1313/post/first/</loc>
     <lastmod>2022-01-10T20:16:46+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

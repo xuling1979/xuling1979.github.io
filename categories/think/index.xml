@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Think on 徐林的博客</title>
-    <link>https://1person.work/categories/think/</link>
+    <link>http://localhost:1313/categories/think/</link>
     <description>Recent content in Think on 徐林的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 29 Oct 2022 01:19:41 +0800</lastBuildDate>
-    <atom:link href="https://1person.work/categories/think/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/think/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>人生的意义</title>
-      <link>https://1person.work/post/%E4%BA%BA%E7%94%9F%E7%9A%84%E6%84%8F%E4%B9%89/</link>
+      <link>http://localhost:1313/post/%E4%BA%BA%E7%94%9F%E7%9A%84%E6%84%8F%E4%B9%89/</link>
       <pubDate>Sat, 29 Oct 2022 01:19:41 +0800</pubDate>
-      <guid>https://1person.work/post/%E4%BA%BA%E7%94%9F%E7%9A%84%E6%84%8F%E4%B9%89/</guid>
+      <guid>http://localhost:1313/post/%E4%BA%BA%E7%94%9F%E7%9A%84%E6%84%8F%E4%B9%89/</guid>
       <description>读阮一峰的周报，谈到他看到的一段话，给了他很大的启发。内容是季承给他爹季羡林的书写的序。 季承 《也谈人生》 人生有没有意义？人类又有什么意义？ 我</description>
     </item>
   </channel>
