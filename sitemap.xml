@@ -9,6 +9,20 @@
   </url>
   
   <url>
+    <loc>https://1person.work/post/mind_chap04/</loc>
+    <lastmod>2024-05-01T21:20:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://1person.work/categories/</loc>
+    <lastmod>2024-05-01T21:20:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://1person.work/</loc>
     <lastmod>2024-05-01T21:20:31+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -23,35 +37,28 @@
   </url>
   
   <url>
-    <loc>https://1person.work/post/mind_chap03/</loc>
-    <lastmod>2024-05-01T16:07:39+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://1person.work/categories/</loc>
-    <lastmod>2024-05-01T16:07:39+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://1person.work/tags/readingnotes/</loc>
-    <lastmod>2024-05-01T16:07:39+08:00</lastmod>
+    <lastmod>2024-05-01T21:20:31+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://1person.work/tags/</loc>
-    <lastmod>2024-05-01T16:07:39+08:00</lastmod>
+    <lastmod>2024-05-01T21:20:31+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://1person.work/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2024-05-01T21:20:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://1person.work/post/mind_chap03/</loc>
     <lastmod>2024-05-01T16:07:39+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
