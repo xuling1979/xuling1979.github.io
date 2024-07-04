@@ -4,10 +4,17 @@
     <title>Posts on 徐林的博客</title>
     <link>https://1person.work/post/</link>
     <description>Recent content in Posts on 徐林的博客</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 May 2024 21:20:31 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jul 2024 20:40:49 +0800</lastBuildDate>
     <atom:link href="https://1person.work/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Phoenix LiveView 从入门到放弃</title>
+      <link>https://1person.work/post/phoenix_liveview%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83_%E7%AE%80%E4%BB%8B/</link>
+      <pubDate>Thu, 04 Jul 2024 20:40:49 +0800</pubDate>
+      <guid>https://1person.work/post/phoenix_liveview%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83_%E7%AE%80%E4%BB%8B/</guid>
+      <description></description>
+    </item>
     <item>
       <title>《认知觉醒》第四章 专注力</title>
       <link>https://1person.work/post/mind_chap04/</link>
@@ -20,7 +27,7 @@
       <link>https://1person.work/post/mind_chap03/</link>
       <pubDate>Wed, 01 May 2024 16:07:39 +0800</pubDate>
       <guid>https://1person.work/post/mind_chap03/</guid>
-      <description>《认知觉醒》第三章 元认知——人类的终极能力 元认知 元认知能力就是我们习以为常、见怪不怪的反思能力 主动元认知和被动元认知 从被动到主动，这是一个转</description>
+      <description></description>
     </item>
     <item>
       <title>《认知觉醒》第一章</title>
@@ -48,7 +55,7 @@
       <link>https://1person.work/post/portainer-error/</link>
       <pubDate>Tue, 08 Nov 2022 22:32:44 +0800</pubDate>
       <guid>https://1person.work/post/portainer-error/</guid>
-      <description>Portainer是Docker的Web图形化管理工具，提供状态显示面板、应用模板快速部署、容器、镜像、网络、数据卷的基本操作（包括上传下载</description>
+      <description></description>
     </item>
     <item>
       <title>Traefik学习(1)</title>
