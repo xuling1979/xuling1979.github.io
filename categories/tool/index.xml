@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tool on 徐林的博客</title>
-    <link>https://1person.work/categories/tool/</link>
+    <link>http://localhost:1313/categories/tool/</link>
     <description>Recent content in Tool on 徐林的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 23 Jan 2022 14:25:52 +0000</lastBuildDate>
-    <atom:link href="https://1person.work/categories/tool/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/tool/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vscode Terminal 终端字体显示错误</title>
-      <link>https://1person.work/post/2022-01-23-vscode-terminal-%E7%BB%88%E7%AB%AF%E5%AD%97%E4%BD%93%E6%98%BE%E7%A4%BA%E9%94%99%E8%AF%AF/</link>
+      <link>http://localhost:1313/post/2022-01-23-vscode-terminal-%E7%BB%88%E7%AB%AF%E5%AD%97%E4%BD%93%E6%98%BE%E7%A4%BA%E9%94%99%E8%AF%AF/</link>
       <pubDate>Sun, 23 Jan 2022 14:25:52 +0000</pubDate>
-      <guid>https://1person.work/post/2022-01-23-vscode-terminal-%E7%BB%88%E7%AB%AF%E5%AD%97%E4%BD%93%E6%98%BE%E7%A4%BA%E9%94%99%E8%AF%AF/</guid>
+      <guid>http://localhost:1313/post/2022-01-23-vscode-terminal-%E7%BB%88%E7%AB%AF%E5%AD%97%E4%BD%93%E6%98%BE%E7%A4%BA%E9%94%99%E8%AF%AF/</guid>
       <description>vscode 终端字体不能显示图标，老是显示一个方块，原因是字体没设置正确。 Ctrl + ，打开 vscode 的设置界面，输入terminal font,找到设置项输入：Mes</description>
     </item>
   </channel>

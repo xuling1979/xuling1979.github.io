@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 徐林的博客</title>
-    <link>https://1person.work/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on 徐林的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 04 Jul 2024 20:40:49 +0800</lastBuildDate>
-    <atom:link href="https://1person.work/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Jul 2024 09:34:37 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Elixir</title>
-      <link>https://1person.work/tags/elixir/</link>
+      <link>http://localhost:1313/tags/elixir/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://1person.work/tags/elixir/</guid>
+      <guid>http://localhost:1313/tags/elixir/</guid>
       <description></description>
     </item>
     <item>
       <title>Liveview</title>
-      <link>https://1person.work/tags/liveview/</link>
+      <link>http://localhost:1313/tags/liveview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://1person.work/tags/liveview/</guid>
+      <guid>http://localhost:1313/tags/liveview/</guid>
       <description></description>
     </item>
     <item>
       <title>Phoenix</title>
-      <link>https://1person.work/tags/phoenix/</link>
+      <link>http://localhost:1313/tags/phoenix/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://1person.work/tags/phoenix/</guid>
+      <guid>http://localhost:1313/tags/phoenix/</guid>
       <description></description>
     </item>
     <item>
       <title>Readingnotes</title>
-      <link>https://1person.work/tags/readingnotes/</link>
+      <link>http://localhost:1313/tags/readingnotes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://1person.work/tags/readingnotes/</guid>
+      <guid>http://localhost:1313/tags/readingnotes/</guid>
       <description></description>
     </item>
     <item>
       <title>日子</title>
-      <link>https://1person.work/tags/%E6%97%A5%E5%AD%90/</link>
+      <link>http://localhost:1313/tags/%E6%97%A5%E5%AD%90/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://1person.work/tags/%E6%97%A5%E5%AD%90/</guid>
+      <guid>http://localhost:1313/tags/%E6%97%A5%E5%AD%90/</guid>
       <description></description>
     </item>
     <item>
       <title>Ruby</title>
-      <link>https://1person.work/tags/ruby/</link>
+      <link>http://localhost:1313/tags/ruby/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://1person.work/tags/ruby/</guid>
+      <guid>http://localhost:1313/tags/ruby/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker</title>
-      <link>https://1person.work/tags/docker/</link>
+      <link>http://localhost:1313/tags/docker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://1person.work/tags/docker/</guid>
+      <guid>http://localhost:1313/tags/docker/</guid>
       <description></description>
     </item>
     <item>
       <title>Traefik</title>
-      <link>https://1person.work/tags/traefik/</link>
+      <link>http://localhost:1313/tags/traefik/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://1person.work/tags/traefik/</guid>
+      <guid>http://localhost:1313/tags/traefik/</guid>
       <description></description>
     </item>
     <item>
       <title>Think</title>
-      <link>https://1person.work/tags/think/</link>
+      <link>http://localhost:1313/tags/think/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://1person.work/tags/think/</guid>
+      <guid>http://localhost:1313/tags/think/</guid>
       <description></description>
     </item>
     <item>
       <title>Postgresql</title>
-      <link>https://1person.work/tags/postgresql/</link>
+      <link>http://localhost:1313/tags/postgresql/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://1person.work/tags/postgresql/</guid>
+      <guid>http://localhost:1313/tags/postgresql/</guid>
       <description></description>
     </item>
     <item>
       <title>Rails</title>
-      <link>https://1person.work/tags/rails/</link>
+      <link>http://localhost:1313/tags/rails/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://1person.work/tags/rails/</guid>
+      <guid>http://localhost:1313/tags/rails/</guid>
       <description></description>
     </item>
     <item>
       <title>Tool</title>
-      <link>https://1person.work/tags/tool/</link>
+      <link>http://localhost:1313/tags/tool/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://1person.work/tags/tool/</guid>
+      <guid>http://localhost:1313/tags/tool/</guid>
       <description></description>
     </item>
   </channel>

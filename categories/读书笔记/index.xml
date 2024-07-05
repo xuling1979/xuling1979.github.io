@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>读书笔记 on 徐林的博客</title>
-    <link>https://1person.work/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+    <link>http://localhost:1313/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
     <description>Recent content in 读书笔记 on 徐林的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 01 May 2024 21:20:31 +0800</lastBuildDate>
-    <atom:link href="https://1person.work/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>《认知觉醒》第四章 专注力</title>
-      <link>https://1person.work/post/mind_chap04/</link>
+      <link>http://localhost:1313/post/mind_chap04/</link>
       <pubDate>Wed, 01 May 2024 21:20:31 +0800</pubDate>
-      <guid>https://1person.work/post/mind_chap04/</guid>
+      <guid>http://localhost:1313/post/mind_chap04/</guid>
       <description>第四章专注力——情绪和智慧的交叉地带 第一节 情绪专注：一招提振你的注意力 随着行动越来越熟练，我们在行动上集中的注意力越来越少，分散在其他地方的</description>
     </item>
     <item>
       <title>《认知觉醒》第三章 元认知——人类的终极能力</title>
-      <link>https://1person.work/post/mind_chap03/</link>
+      <link>http://localhost:1313/post/mind_chap03/</link>
       <pubDate>Wed, 01 May 2024 16:07:39 +0800</pubDate>
-      <guid>https://1person.work/post/mind_chap03/</guid>
+      <guid>http://localhost:1313/post/mind_chap03/</guid>
       <description></description>
     </item>
     <item>
       <title>《认知觉醒》第一章</title>
-      <link>https://1person.work/post/mind_chap01/</link>
+      <link>http://localhost:1313/post/mind_chap01/</link>
       <pubDate>Sun, 28 Apr 2024 15:29:50 +0800</pubDate>
-      <guid>https://1person.work/post/mind_chap01/</guid>
+      <guid>http://localhost:1313/post/mind_chap01/</guid>
       <description>第一章 大脑，一切问题的起源 第一节 大脑：重新认识你自己 本能脑；情绪脑；理智脑 高度紧张的时候大脑会缺血，所以会丧失理智。 有了情绪的加持，哺乳动物</description>
     </item>
   </channel>

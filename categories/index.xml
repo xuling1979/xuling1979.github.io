@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 徐林的博客</title>
-    <link>https://1person.work/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on 徐林的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 04 Jul 2024 20:40:49 +0800</lastBuildDate>
-    <atom:link href="https://1person.work/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Jul 2024 09:34:37 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Phoenix</title>
-      <link>https://1person.work/categories/phoenix/</link>
+      <link>http://localhost:1313/categories/phoenix/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://1person.work/categories/phoenix/</guid>
+      <guid>http://localhost:1313/categories/phoenix/</guid>
       <description></description>
     </item>
     <item>
       <title>读书笔记</title>
-      <link>https://1person.work/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <link>http://localhost:1313/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://1person.work/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+      <guid>http://localhost:1313/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
       <description></description>
     </item>
     <item>
       <title>日子</title>
-      <link>https://1person.work/categories/%E6%97%A5%E5%AD%90/</link>
+      <link>http://localhost:1313/categories/%E6%97%A5%E5%AD%90/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://1person.work/categories/%E6%97%A5%E5%AD%90/</guid>
+      <guid>http://localhost:1313/categories/%E6%97%A5%E5%AD%90/</guid>
       <description></description>
     </item>
     <item>
       <title>Ruby</title>
-      <link>https://1person.work/categories/ruby/</link>
+      <link>http://localhost:1313/categories/ruby/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://1person.work/categories/ruby/</guid>
+      <guid>http://localhost:1313/categories/ruby/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker</title>
-      <link>https://1person.work/categories/docker/</link>
+      <link>http://localhost:1313/categories/docker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://1person.work/categories/docker/</guid>
+      <guid>http://localhost:1313/categories/docker/</guid>
       <description></description>
     </item>
     <item>
       <title>Traefik</title>
-      <link>https://1person.work/categories/traefik/</link>
+      <link>http://localhost:1313/categories/traefik/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://1person.work/categories/traefik/</guid>
+      <guid>http://localhost:1313/categories/traefik/</guid>
       <description></description>
     </item>
     <item>
       <title>Think</title>
-      <link>https://1person.work/categories/think/</link>
+      <link>http://localhost:1313/categories/think/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://1person.work/categories/think/</guid>
+      <guid>http://localhost:1313/categories/think/</guid>
       <description></description>
     </item>
     <item>
       <title>Postgresql</title>
-      <link>https://1person.work/categories/postgresql/</link>
+      <link>http://localhost:1313/categories/postgresql/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://1person.work/categories/postgresql/</guid>
+      <guid>http://localhost:1313/categories/postgresql/</guid>
       <description></description>
     </item>
     <item>
       <title>Rails</title>
-      <link>https://1person.work/categories/rails/</link>
+      <link>http://localhost:1313/categories/rails/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://1person.work/categories/rails/</guid>
+      <guid>http://localhost:1313/categories/rails/</guid>
       <description></description>
     </item>
     <item>
       <title>Tool</title>
-      <link>https://1person.work/categories/tool/</link>
+      <link>http://localhost:1313/categories/tool/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://1person.work/categories/tool/</guid>
+      <guid>http://localhost:1313/categories/tool/</guid>
       <description></description>
     </item>
   </channel>

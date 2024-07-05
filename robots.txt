@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://1person.work/sitemap.xml
+Sitemap: http://localhost:1313/sitemap.xml

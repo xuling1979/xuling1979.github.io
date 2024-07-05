@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Liveview on 徐林的博客</title>
-    <link>https://1person.work/tags/liveview/</link>
+    <link>http://localhost:1313/tags/liveview/</link>
     <description>Recent content in Liveview on 徐林的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 04 Jul 2024 20:40:49 +0800</lastBuildDate>
-    <atom:link href="https://1person.work/tags/liveview/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Jul 2024 09:34:37 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/liveview/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Phoenix liveview 从入门到放弃 02</title>
+      <link>http://localhost:1313/post/phoenix_liveview_%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83_02/</link>
+      <pubDate>Fri, 05 Jul 2024 09:34:37 +0800</pubDate>
+      <guid>http://localhost:1313/post/phoenix_liveview_%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83_02/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Phoenix LiveView 从入门到放弃</title>
-      <link>https://1person.work/post/phoenix_liveview%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83_%E7%AE%80%E4%BB%8B/</link>
+      <link>http://localhost:1313/post/phoenix_liveview%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83_%E7%AE%80%E4%BB%8B/</link>
       <pubDate>Thu, 04 Jul 2024 20:40:49 +0800</pubDate>
-      <guid>https://1person.work/post/phoenix_liveview%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83_%E7%AE%80%E4%BB%8B/</guid>
+      <guid>http://localhost:1313/post/phoenix_liveview%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83_%E7%AE%80%E4%BB%8B/</guid>
       <description></description>
     </item>
   </channel>
